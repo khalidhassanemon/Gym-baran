@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+
+  .cont-60{
+   display: grid;
+   margin-left: -120px;
+  }
+  #cont-74{
+    margin-left: -38px;
+  }
+  #cont-75{
+    margin-top: 215px;
+    margin-left: -330px;
+
+  }
+  #cont-76{
+    margin-left: -330px;
+  }
+  .cont-78{
+    margin-top: 430px;
+    margin-left: -340px;
+    margin-bottom: 20px;
+  }
+}

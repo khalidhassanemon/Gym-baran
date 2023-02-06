@@ -1,13 +1,14 @@
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import img3 from "../../Images/image-4.PNG";
-import './Last.css';
+import { GiSprint, GiHighKick, GiWeightLiftingUp } from "react-icons/gi";
+import img3 from "../../Images/image-3.PNG";
+import "./Last.css";
 const Last = () => {
   return (
     <div className="mt-10 ml-28">
-      <section className="d-flex  gap-28" id='cont-26'>
+      <section className="d-flex  gap-28" id="cont-26">
         <div id="cont-27">
-          <h1 className="mt-6" >
+          <h1 className="mt-6">
             Daily morning <br></br> workout in home
           </h1>
           <p className="text-justify" id="cont-24">
@@ -23,8 +24,10 @@ const Last = () => {
             </span>
           </button>
         </div>
-        <div className="mt-6" style={{width:'390px'}} id="cont-28">
-          <img src={img3}></img>
+        <div className="-mt-4" style={{ width: "420px" }} id="cont-28">
+          <div className="cont-100">
+            <img src={img3}></img>
+          </div>
         </div>
       </section>
     </div>

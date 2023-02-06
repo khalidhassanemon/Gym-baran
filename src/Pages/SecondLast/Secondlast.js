@@ -6,11 +6,11 @@ const Secondlast = () => {
     <div className="mt-16 ml-20">
       <section className="d-flex  gap-60" id="cont-35">
         <div
-          style={{ width: "350px", marginTop: "20px", marginBottom: "20px" }}
+          style={{ width: "350px", marginTop: "10px", marginBottom: "20px" }}
         >
           <img src={img4}></img>
         </div>
-        <div className="how">
+        <div className="how mt-16">
           <h1>How it works?</h1>
           <span>
             <p style={{ boxShadow: "0px 5px 20px #F4AAB9" }}>

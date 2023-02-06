@@ -1,26 +1,26 @@
 #cont-24{
     width: 400px;
 }
-img{
-    width: 370px;
-}
 
 @media screen and (max-width: 576px) {
-
+   
+    .cont-100{
+        margin-left: 60px;
+        width: 400px;
+    }
    #cont-26{
     display: grid;
    }
-   img{
-    margin-left: -500px;
-   }
    #cont-27{
     margin-left: -45px;
-    order: 1;
+   }
+
+   #cont-24{
+    width:330px;
    }
   #cont-28{
-    margin-top: 390px;
-    margin-left: -550px;
+    margin-top: 420px;
+    margin-left: -540px;
     width: 600px;
-    order: 2;
 }
 }

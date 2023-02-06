@@ -11,7 +11,7 @@ const UpperSide = () => {
               <div className='mt-5 ml-20 gap-36' id='container'>
                 <div className='ml-10 w-96'>
                     <h1>Healthy in side</h1>
-                    <h1><span >fresh</span> out side</h1>
+                    <h1><span className='text-indigo-500'>fresh</span> out side</h1>
                     <p className='text-justify'>Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
                     <div className='d-flex'>
                         <button className="btn btn-outline btn-primary mr-8 d-flex"><span className='mr-7'>Get Started </span> <span>

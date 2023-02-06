@@ -2,23 +2,24 @@ import React from "react";
 import { GiSprint, GiHighKick, GiWeightLiftingUp } from "react-icons/gi";
 import { IoAccessibility, IoAccessibilitySharp } from "react-icons/io5";
 import { FaRunning } from "react-icons/fa";
-
+import './DownLast.css'
 const DownLast = () => {
   return (
-    <div>
-      <div className=" text-center mb-20">
+    <div className="" id="cont-62">
+
+      <div className=" text-center mb-10 cont-60 font-sans w-auto">
         <h1>
           Programs that can <br></br> be taken
         </h1>
       </div>
 
-<div className="d-flex ml-16">
+    <div className="d-flex ml-16 ">
       <div>
 
-        <div className="d-flex">
-          <div>
-            <div className="d-flex">
-              <div className="rounded-full p-2  bg-gradient-to-r from-cyan-500 to-blue-200  text-4xl m-4 text-white">
+        <div className="d-flex" >
+          <div id="cont-74">
+            <div className="d-flex " >
+              <div className="rounded-full p-2  bg-gradient-to-r from-cyan-500 to-blue-200  text-4xl m-4 text-white" >
                 <GiSprint></GiSprint>
               </div>
               <div className="d-grid">
@@ -41,8 +42,8 @@ const DownLast = () => {
             </div>
           </div>
 
-          <div>
-            <div className="d-flex">
+          <div >
+            <div className="d-flex" id="cont-75">
               <div className="rounded-full p-2  bg-gradient-to-r from-cyan-500 to-blue-200  text-4xl m-4 text-white">
                 <GiWeightLiftingUp></GiWeightLiftingUp>
               </div>
@@ -52,8 +53,8 @@ const DownLast = () => {
               </div>
             </div>
 
-            <div className="d-flex">
-              <div className="rounded-full p-2  bg-gradient-to-r from-cyan-500 to-blue-200  text-4xl m-4 text-white">
+            <div className="d-flex" id="cont-76" >
+            <div  className="rounded-full p-2  bg-gradient-to-r from-cyan-500 to-blue-200  text-4xl m-4 text-white">
                 <IoAccessibility></IoAccessibility>
               </div>
               <div className="d-grid">
@@ -67,7 +68,7 @@ const DownLast = () => {
       
       </div>
 
-      <div>
+      <div className="cont-78">
 
       
       <div className="d-flex">
@@ -98,7 +99,6 @@ const DownLast = () => {
 
       </div>
     </div>
-
   );
 };
 

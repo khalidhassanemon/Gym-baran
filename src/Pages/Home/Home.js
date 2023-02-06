@@ -5,6 +5,7 @@ import Secondlast from '../SecondLast/Secondlast';
 import UpperSide from '../UpperSide/UpperSide';
 import './Home.css';
 import DownLast from '../DownLast/DownLast';
+import BoxShadows from '../BoxShadows/BoxShadows';
 const Home = () => {
     return (
         <div>
@@ -13,6 +14,7 @@ const Home = () => {
             <Last></Last>
             <Secondlast></Secondlast>
             <DownLast></DownLast>
+            <BoxShadows></BoxShadows>
         </div>
     );
 };
