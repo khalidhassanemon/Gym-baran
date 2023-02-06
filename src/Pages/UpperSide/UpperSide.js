@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../../Images/img1.PNG';
+import img1 from '../../Images/image-1.PNG';
 import { FaPlayCircle } from "react-icons/fa";
 import { BiChevronRightCircle } from "react-icons/bi";
 import { SiNike, SiAdidas, SiPuma, SiReebok } from "react-icons/si";
@@ -27,6 +27,7 @@ const UpperSide = () => {
                     </div>
                 </div>
                 <div className='ml-4' id='container-2'>
+            
                     <img src={img1}></img>
                 </div>  
             </div>

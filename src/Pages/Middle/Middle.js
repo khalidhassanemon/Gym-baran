@@ -3,8 +3,7 @@ import { GrYoga } from "react-icons/gr";
 import { TbYoga } from "react-icons/tb";
 import { IoIosBody } from "react-icons/io";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { GiSprint, GiHighKick, GiWeightLiftingUp } from "react-icons/gi";
-import img2 from "../../Images/gym.PNG";
+import img2 from "../../Images/image-2.PNG";
 import './Middle.css';
 const Middle = () => {
   return (
@@ -93,9 +92,7 @@ const Middle = () => {
           <div className="img2">
             <img src={img2}></img>
           </div>
-          <div className="w-14 ml-2 rounded-full p-2 bg-gradient-to-r from-cyan-500 to-blue-800  text-4xl text-white">
-                <GiSprint></GiSprint>
-              </div>
+        
         </div>
         <div>
           <div id="cont-20">

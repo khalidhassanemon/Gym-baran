@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import img3 from "../../Images/gym4.PNG";
+import img3 from "../../Images/image-4.PNG";
 import './Last.css';
 const Last = () => {
   return (
@@ -23,7 +23,7 @@ const Last = () => {
             </span>
           </button>
         </div>
-        <div className="mt-6" style={{width:'420px'}} id="cont-28">
+        <div className="mt-6" style={{width:'390px'}} id="cont-28">
           <img src={img3}></img>
         </div>
       </section>
