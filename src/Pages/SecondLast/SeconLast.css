@@ -1,0 +1,18 @@
+@media screen and (max-width: 576px) {
+.how{
+    margin-left: -580px;
+    margin-top: -270px;
+    width: 300px;
+}
+ #cont-35{
+    margin-top: 280px;
+    margin-left: -35px;
+    margin-bottom: 30px;
+ }
+}
+
+.cont-40{
+    border: 2px solid whitesmoke;
+    border-radius: 3px;
+    background-color: rgb(227, 225, 218);
+}

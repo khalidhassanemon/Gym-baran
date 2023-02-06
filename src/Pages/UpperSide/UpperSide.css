@@ -1,0 +1,17 @@
+img{
+    width: 500px;
+}
+#container{
+display: flex;
+}
+@media screen and (max-width:576px){
+      #container{
+        display:grid;
+        margin-left: -2px;
+      }
+      img{
+        margin-left: -5px;
+        width: 70%;
+        margin-top: -50px;
+      }
+}
